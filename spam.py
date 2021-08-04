@@ -6,3 +6,5 @@ for line in f:
 	pyperclip.copy(line)
 	pyautogui.hotkey('ctrl', 'v')
 	pyautogui.press("enter")
+
+input("Press enter to continue...")
